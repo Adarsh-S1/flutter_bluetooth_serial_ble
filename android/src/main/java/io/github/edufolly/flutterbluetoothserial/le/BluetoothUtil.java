@@ -15,8 +15,6 @@ import androidx.fragment.app.Fragment;
 
 import java.util.Map;
 
-import io.github.edufolly.flutterbluetoothserial.BuildConfig;
-
 public class BluetoothUtil {
 
     interface PermissionGrantedCallback {
