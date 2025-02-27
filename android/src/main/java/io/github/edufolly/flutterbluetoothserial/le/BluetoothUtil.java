@@ -86,7 +86,7 @@ public class BluetoothUtil {
         builder.setNegativeButton("Cancel", null);
         builder.setPositiveButton("Settings", (dialog, which) ->
                 fragment.startActivity(new Intent(android.provider.Settings.ACTION_APPLICATION_DETAILS_SETTINGS,
-                        Uri.parse("package:" + BuildConfig.LIBRARY_PACKAGE_NAME)))); //DUMMY Not sure about this one
+                        Uri.parse("package:" + "io.github.edufolly.flutterbluetoothserial")))); //DUMMY Not sure about this one
         builder.show();
     }
 
