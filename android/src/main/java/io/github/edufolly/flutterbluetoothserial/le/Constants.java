@@ -1,6 +1,5 @@
 package io.github.edufolly.flutterbluetoothserial.le;
 
-import io.github.edufolly.flutterbluetoothserial.BuildConfig;
 
 public class Constants {
 
